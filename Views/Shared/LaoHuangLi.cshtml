@@ -1,0 +1,11 @@
+﻿@{var LaoHuang = ViewData["laohuang"] as MapAPIDemo.Models.LaoHuangLi.LaoHuangLi;}
+@if (LaoHuang == null || LaoHuang.Status != 200)
+{
+    <p>@LaoHuang.Message</p>
+}
+else
+{
+<p>宜: @LaoHuang.Data.Suit</p>
+<p>忌: @LaoHuang.Data.Taboo</p>
+}
+    

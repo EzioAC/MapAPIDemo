@@ -1,0 +1,30 @@
+
+.weatherDiv{
+	border:dashed;
+	height: 100px;
+}
+
+.huangliDiv{
+	border: dashed;
+	height: 100px;
+}
+
+.sceneDiv{
+	height: 600px;
+	overflow-y: auto;
+}
+
+.mapDiv{
+	height: 600px;
+	overflow: auto;
+}
+
+.bottom{
+line-height:30px !important;
+margin:0;
+padding:0;
+clear:both;
+position:absolute;
+bottom:0px;
+width:100%;
+}

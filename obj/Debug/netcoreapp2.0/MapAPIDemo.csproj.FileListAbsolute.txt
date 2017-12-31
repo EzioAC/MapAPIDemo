@@ -1,0 +1,16 @@
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\MapAPIDemo.deps.json
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\MapAPIDemo.runtimeconfig.json
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\MapAPIDemo.runtimeconfig.dev.json
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\MapAPIDemo.dll
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\MapAPIDemo.pdb
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\MapAPIDemo.deps.json
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\MapAPIDemo.runtimeconfig.json
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\MapAPIDemo.runtimeconfig.dev.json
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\MapAPIDemo.dll
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\MapAPIDemo.pdb
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\MapAPIDemo.csprojResolveAssemblyReference.cache
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\MapAPIDemo.csproj.CoreCompileInputs.cache
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\MapAPIDemo.AssemblyInfoInputs.cache
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\MapAPIDemo.AssemblyInfo.cs
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\MapAPIDemo.dll
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\MapAPIDemo.pdb

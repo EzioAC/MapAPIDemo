@@ -1,0 +1,50 @@
+﻿@{
+    Layout = "_Layout";
+}
+<script type="text/javascript">
+    //百度地图API功能
+    var local;
+    function loadJScript() {
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "http://api.map.baidu.com/api?v=2.0&ak=@MapAPIDemo.Tools.AK.ak&callback=init";
+        document.body.appendChild(script);
+    }
+    function init() {
+        var map = new BMap.Map("allmap");            // 创建Map实例
+        var point = new BMap.Point(@Model.X, @Model.Y); // 创建点坐标
+        map.centerAndZoom(point, 15);
+        map.enableScrollWheelZoom();                 //启用滚轮放大缩小
+        local = new BMap.LocalSearch(map, {
+            renderOptions: { map: map }
+        });
+    }
+    function MapSearch(obj) {
+        var str = $(obj).find("h3").text();
+        local.search(str);
+    }
+    window.onload = loadJScript;  //异步加载地图
+</script>
+<main>
+    <article>
+        <section id="templates">
+            <div class="container-fluid">
+                <div id="other" class="row">
+                    <div class="col-md-6 col-md-offset-1 weatherDiv">@Html.Partial("Weather")</div>
+                    <div class="col-md-6 col-md-offset-2 huangliDiv">@Html.Partial("LaoHuangLi")</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-md-offset-1 templates-list templates-grid sceneDiv" data-component="templates-list">
+                        <h3 class="template-name">热门景点</h3>
+                        @Html.Partial("Scenery")
+                    </div>
+                    <div id="map" class="col-md-9 col-md-offset-1 mapDiv">
+                        <div id="allmap" style="width:100%;height:100%;overflow:hidden;margin:0;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+</main>
+

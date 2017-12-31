@@ -1,0 +1,14 @@
+﻿@{
+    var weather = ViewData["weather"] as MapAPIDemo.Models.Weather.Weather;
+}
+@if (weather == null || weather.Status != 200)
+{
+    <p>@weather.Message</p>
+}
+else
+{
+    <p>温度: @weather.Data.Wendu;</p>
+    <p>湿度: @weather.Data.Shidu;</p>
+    <p>质量: @weather.Data.Quality;</p>
+}
+

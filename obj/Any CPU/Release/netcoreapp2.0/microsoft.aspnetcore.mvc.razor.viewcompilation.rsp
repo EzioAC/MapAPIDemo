@@ -1,0 +1,10 @@
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo
+--output-path=obj\Any CPU\Release\netcoreapp2.0\
+--application-name=MapAPIDemo
+--content-root=C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo
+--file=C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\Views\Shared\LaoHuangLi.cshtml
+--file=C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\Views\Shared\Scenery.cshtml
+--file=C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\Views\Shared\Weather.cshtml
+--file=C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\Views\Shared\_Layout.cshtml
+--file=C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\Views\_ViewImports.cshtml
+--file=C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\Views\_ViewStart.cshtml

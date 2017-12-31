@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>说走就走</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=fmXNoXS7GEMTDFPs2TOZ3Lr4MHgctRyc"></script>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/bootstrap-theme.min.css">
+    <link href="~/css/tourism.css" rel="stylesheet">
+    <link href="//static.ninoxdb.de/stylesheets/style-700e1b06d4954b39720a47ba0f8fa52ae1d2a386.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="overlay" data-component="overlay"></div>
+
+    <div id="wrapper">
+
+        <!-- 头-->
+        <header class="c-header" data-component="header">
+
+            <div class="c-header--wrapper">
+
+                <div class="c-header--logo">
+                    <a class="c-header--log--link" href="/">
+                        <img alt="Logo" src="~/img/logo.png">
+                    </a>
+                </div>
+
+                <div class="c-header--navigation">
+                    <nav class="c-header--navigation--primary is-collapsed" data-component-element="navigation">
+                        @Html.ActionLink("导航", "Main", "Home", null, new { @class = "c-header--navigation--link is-active" })
+                        @Html.ActionLink("查看地图", "Map", "Home", null, new { @class = "c-header--navigation--link" })
+                        @Html.ActionLink("景点一览", "Scene", "Home", null, new { @class = "c-header--navigation--link" })
+                        @Html.ActionLink("酒店预订", "Hotel", "Home", null, new { @class = "c-header--navigation--link" })
+                        @Html.ActionLink("票价查询", "Ticket", "Home", null, new { @class = "c-header--navigation--link" })
+                    </nav>
+
+                    <nav class="c-header--navigation--secondary">
+
+                        <button class="c-header--navigation--link c-header--navigation--hideable" data-component="sign-in-button">
+                            Log In
+                        </button>
+                        <button class="c-header--navigation--button c-button" data-component="sign-up-button">
+                            Sign Up
+                        </button>
+
+                    </nav>
+
+                    <button class="c-header--navigation--toggle" data-component-element="navigation-button"></button>
+
+                </div>
+
+            </div>
+
+        </header>
+
+        @RenderBody()
+
+    </div>
+
+    <script id="i18n" type="application/json" data-locale="en">
+        { "credentials.form.email": "Email", "credentials.form.password": "Password", "credentials.form.signin.submit": "Sign In", "credentials.form.signin.actions.signup.question": "Don't have an account?", "credentials.form.signin.actions.signup.link": "Sign Up!", "credentials.form.signin.actions.reset.question": "Problems logging in?", "credentials.form.signin.actions.reset.link": "Reset your password!", "credentials.form.signup.submit": "Get Your Free Trial", "credentials.form.signup.actions.signin.question": "Already have an account?", "credentials.form.signup.actions.signin.link": "Sign In!", "credentials.form.forgotten.password.submit": "Submit", "credentials.form.forgotten.password.actions.signin.question": "No need to reset your password?", "credentials.form.forgotten.password.actions.signin.link": "Sign In!", "template.popup.close": "Close", "js.global.all.fields.required": "All fields are required.", "js.global.email.field.invalid": "Email is invalid", "js.reset.password.success": "Your password was successfully reset.", "js.forgotten.password.success": "Reset password e-mail was sent successfully." }
+    </script>
+
+    <script src="//static.ninoxdb.de/scripts/global-700e1b06d4954b39720a47ba0f8fa52ae1d2a386.js"></script>
+
+</body>
+
+</html>

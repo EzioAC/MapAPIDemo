@@ -1,0 +1,45 @@
+/*.sceneDiv {
+	position: absolute;
+	left: 0;
+	top: 30%;
+	height: 800px;
+	width: 400px;
+	overflow-y: auto;
+}*/
+
+/*.mapDiv {
+	position: absolute;
+	left: 400px;
+	top: 30%;
+	height: 800px;
+	width: 1500px;
+	margin-top: 88px;
+	margin-bottom: 80px;
+}*/
+
+/*.topDiv {
+	position: absolute;
+	border: dashed;
+	top: 10%;
+	height: 200px;
+	width: 1280px;
+	margin-top: 25px;
+	margin-left: 112px;
+}
+
+.weatherDiv {
+	position: absolute;
+	border: dashed;
+	display: inline;
+	height: 200px;
+	width:640px;
+}
+
+.huangliDiv {
+	position: absolute;
+	border: dashed;
+	display: inline;
+	margin-left: 680px;
+	height: 200px;
+	width:640px;
+}*/

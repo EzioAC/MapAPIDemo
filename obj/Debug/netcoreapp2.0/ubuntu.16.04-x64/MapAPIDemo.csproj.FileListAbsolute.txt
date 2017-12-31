@@ -1,0 +1,13 @@
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\libhostpolicy.so
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\libhostfxr.so
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.deps.json
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.runtimeconfig.json
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.runtimeconfig.dev.json
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.dll
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\bin\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.pdb
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.csproj.CoreCompileInputs.cache
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.AssemblyInfoInputs.cache
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.AssemblyInfo.cs
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.dll
+C:\Users\Ezio\Source\Repos\MapAPIDemo\MapAPIDemo\obj\Debug\netcoreapp2.0\ubuntu.16.04-x64\MapAPIDemo.pdb
